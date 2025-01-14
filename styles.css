@@ -1,0 +1,487 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #211917;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #2780d4;
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(to right, #2780d4, #00b894);
+  color: white;
+  padding: 20px;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-section button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #ff7043;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section button:hover {
+  background-color: #ff5722;
+}
+
+/* About Section */
+.about {
+  padding: 80px 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  color: #555;
+}
+
+.about-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.about-images img {
+  width: 48%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-images img:hover {
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features, .features-section {
+  padding: 80px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.features h2, .features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.features ul, .features-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features li, .feature-item {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features li::before {
+  content: "✓";
+  color: #00b894;
+  margin-right: 10px;
+}
+
+/* Product Section */
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.product-image {
+  flex: 1 1 40%;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+  flex: 1 1 60%;
+  padding: 20px;
+}
+
+.product-details h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.product-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.product-details li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-details li::before {
+  content: "•";
+  color: #2780d4;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.faq-section h2 {
+  color: #003366;
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.faq-item h3 {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #2780d4;
+}
+
+.faq-item p {
+  display: none;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+.faq-item.active p {
+  display: block;
+}
+
+.faq-item.active h3 {
+  color: #ff7043;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 80px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  color: #003366;
+}
+
+.testimonial-item {
+  margin-bottom: 40px;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.testimonial-item h3 {
+  font-size: 1.1rem;
+  color: #2780d4;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer a {
+  color: #ff7043;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ff5722;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff7043;
+  color: white;
+  font-size: 1.5rem;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-top:hover {
+  background-color: #ff5722;
+}
+
+/* Sticky Navigation */
+nav.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 2px -2px gray;
+  background-color: #2780d4;
+  padding: 10px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
+
+  .about-images {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-images img {
+      width: 80%;
+      margin-bottom: 20px;
+  }
+
+  .features ul {
+      display: inline-block;
+    width: 45%;               /* Adjust width as needed */
+    margin: 10px 2%;          /* Adds spacing around each container */
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .features li {
+    display: inline-block;
+    width: 45%;               /* Adjust width as needed */
+    margin: 10px 2%;          /* Adds spacing around each container */
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+  header h1, h2 {
+      font-size: 2.5rem;
+  }
+
+  header p {
+      font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h1, h2 {
+      font-size: 2rem;
+  }
+
+  .about h2 {
+      font-size: 2rem;
+  }
+
+  .features li {
+      font-size: 1.1rem;
+  }
+
+  .about p,
+  .features ul {
+      width: 100%;
+  }
+}
+/* Icon Styling */
+/* .icon-nav {
+  width: 24px;          /* Desired icon width */
+  height: 24px;         /* Desired icon height */
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;        /* Optional spacing around icons */
+}
+
+.icon-nav img, .icon-nav svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  /* Ensures the icon maintains its aspect ratio */
+} */
+/* Styling for nav icons */
+/* .navbar .icon-nav {
+  width: 20px;           /* Set a fixed width for icons */
+  height: 20px;          /* Set a fixed height for icons */
+  display: inline-block; /* Ensures icons stay inline with text */
+  vertical-align: middle; /* Aligns icons with the text */
+  margin-right: 8px;     /* Adds spacing between icon and text */
+} */
+
+.navbar a {
+  display: flex;
+  align-items: center;   /* Aligns icon and text vertically */
+  text-decoration: none;
+  padding: 10px 15px;
+} */
+/* Center the navbar and limit its width */
+.navbar {
+  width: 80%;                /* Adjust width as needed */
+  margin: 0 auto;            /* Center the navbar horizontally */
+  padding: 10px 0;
+  text-align: center;        /* Center the text */
+}
+
+/* Add spacing between the links */
+.navbar a {
+  margin: 0 15px;            /* Horizontal spacing between links */
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;           /* Adjust font size */
+}
+.interactive-demo-container {
+  width: 80%;               /* Increases the width of the container */
+  margin: 0 auto;           /* Centers the container */
+  padding: 20px;            /* Adds padding inside the container */
+  text-align: center;       /* Centers the content */
+}
+
+.interactive-demo-container {
+  width: 100%;              /* Ensures the video fits the container */
+  max-width: 800px;         /* Limits the video width */
+  height: auto;             /* Maintains aspect ratio */
+  border-radius: 8px;       /* Adds rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
