@@ -516,7 +516,7 @@ nav.sticky {
 .interactive-demo-container {
   width: 100%;              /* Ensures the video fits the container */
   max-width: 800px;         /* Limits the video width */
-  height: 10px;             /* Maintains aspect ratio */
+  height: auto;             /* Maintains aspect ratio */
   border-radius: 8px;       /* Adds rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
