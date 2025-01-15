@@ -227,7 +227,7 @@ header p {
 }
 
 .product-details li::before {
-  content: "•";
+    content: "•";
   color: #2780d4;
   margin-right: 10px;
   font-weight: bold;
@@ -521,7 +521,7 @@ nav.sticky {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 /* Logo styling */
-.logo >img {
+.logo {
   width: 40px; /* Adjust the size as needed */
   height: auto;
   margin-right: 20px;
