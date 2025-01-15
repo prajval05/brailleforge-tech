@@ -522,9 +522,8 @@ nav.sticky {
 }
 /* Logo styling */
 .logo >img {
-  width: 60px; /* Adjust the size as needed */
+  width: 40px; /* Adjust the size as needed */
   height: auto;
   margin-right: 20px;
   vertical-align: middle;
 }
-.
