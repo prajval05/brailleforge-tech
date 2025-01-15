@@ -520,3 +520,10 @@ nav.sticky {
   border-radius: 8px;       /* Adds rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
+/* Logo styling */
+.logo {
+  width: 60px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 20px;
+  vertical-align: middle;
+}
